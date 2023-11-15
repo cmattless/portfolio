@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-Welcome to the repository for my personal portfolio website. This site is a window into my world as a Creative Computing student, where I showcase my development projects, technical skills, and the creative journey that I'm on.
+Interactive personal portfolio website showcasing me and my work, with responsive design and accessible features built with React, React-Router, Tailwind CSS, & DaisyUI. 
 
 ## Features
 
