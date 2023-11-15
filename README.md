@@ -11,12 +11,12 @@ Interactive personal portfolio website showcasing me and my work, with responsiv
 - ~~**Portfolio Showcase**: A gallery of my projects and accomplishments.~~
 
 ## Built With
-
+- [Vite](https://vitejs.dev/) - A modern frontend bundler tool that provides a fast and lean development experience.
 - [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
-- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework for rapidly building custom designs.
-- [Vite](https://vitejs.dev/) - A modern frontend build tool that provides a fast and lean development experience.
-- [DaisyUI](https://daisyui.com/) - A Tailwind CSS plugin for beautiful UI components.
 - [React Router](https://reactrouter.com/) - Declarative routing for React applications.
+- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework for rapidly building custom designs.
+- [DaisyUI](https://daisyui.com/) - A Tailwind CSS plugin for beautiful UI components.
+
 
 
 ## Getting Started
