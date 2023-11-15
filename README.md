@@ -6,7 +6,7 @@ Interactive personal portfolio website showcasing me and my work, with responsiv
 
 - **Responsive Design**: A layout that looks great on both mobile and desktop devices.
 - **Accessibility in Focus**: Built with accessibility best practices to ensure the site is usable by everyone.
-- **Portfolio Showcase**: A gallery of my projects and accomplishments.
+- ~~**Portfolio Showcase**: A gallery of my projects and accomplishments.~~
 
 ## Built With
 
