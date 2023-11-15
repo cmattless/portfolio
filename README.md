@@ -2,6 +2,8 @@
 
 Interactive personal portfolio website showcasing me and my work, with responsive design and accessible features built with React, React-Router, Tailwind CSS, & DaisyUI. 
 
+>Note: Features that have been struckthrough are not currently implemented. Features are subject to change.
+
 ## Features
 
 - **Responsive Design**: A layout that looks great on both mobile and desktop devices.
