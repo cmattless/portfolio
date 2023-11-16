@@ -3,12 +3,18 @@ import ProjectCard from "../../Components/ProjectCard";
 import { useState } from "react";
 const Index = () => {
 	const [projects, setProjects] = useState(projectsJSON);
-	console.log(projects);
 	const projectList = projects.map((project, i) => {
 		// cycle through bg classes
 		const bgClass = ["bg-primary", "bg-secondary", "bg-success", "bg-accent"][
 			i % 4
 		];
+
+		let alt;
+		if (i % 2 == 0) {
+			alt = true;
+		} else {
+			alt = false;
+		}
 		return (
 			<section
 				key={i}
@@ -18,7 +24,7 @@ const Index = () => {
 					i === projects.length - 1 ? "rounded-b-2xl" : null
 				} p-5 items-center`}
 			>
-				<ProjectCard project={project} />
+				<ProjectCard project={project} alt={alt} />
 			</section>
 		);
 	});

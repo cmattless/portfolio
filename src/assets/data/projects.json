@@ -6,7 +6,7 @@
         "images": [
             {
                 "caption": "Screenshot of the code",
-                "path": "https://picsum.photos/200"
+                "path": "https://picsum.photos/1200"
             }
         ],
         "date": "2023",
@@ -28,7 +28,7 @@
         "images": [
             {
                 "caption": "Screenshot of the code",
-                "path": "https://picsum.photos/200"
+                "path": "https://picsum.photos/1200"
             }
         ],
         "date": "2023",
@@ -44,13 +44,35 @@
         "github": "gitbbbibb"
     },
     {
+        "slug": "todo-app",
+        "title": "To-do App",
+        "description": "This is a to-do app I made using React. I found this project interesting, I learned about localStorage.",
+        "images": [
+            {
+                "caption": "Screenshot of the code",
+                "path": "https://picsum.photos/1200"
+            }
+        ],
+        "date": "2023",
+        "tags": [
+            "JavaScript",
+            "React",
+            "HTML",
+            "CSS",
+            "UI"
+        ],
+        "website": "connormattless.com",
+        "github": "",
+        "demo": "todo-app"
+    },
+    {
         "slug": "giphy-app",
         "title": "Giphy",
         "description": "a small gif browsing website.",
         "images": [
             {
                 "caption": "Screenshot of the code",
-                "path": "https://picsum.photos/200"
+                "path": "https://picsum.photos/1200"
             }
         ],
         "date": "2023",
@@ -66,13 +88,13 @@
         "github": "gitbbbibb"
     },
     {
-        "slug": "giphy-app",
-        "title": "Giphy",
-        "description": "a small gif browsing website.",
+        "slug": "todo-app",
+        "title": "To-do App",
+        "description": "This is a to-do app I made using React. I found this project interesting, I learned about localStorage.",
         "images": [
             {
                 "caption": "Screenshot of the code",
-                "path": "https://picsum.photos/200"
+                "path": "https://picsum.photos/1200"
             }
         ],
         "date": "2023",
@@ -81,11 +103,11 @@
             "React",
             "HTML",
             "CSS",
-            "UI",
-            "APIs"
+            "UI"
         ],
-        "website": "",
-        "github": "gitbbbibb"
+        "website": "connormattless.com",
+        "github": "",
+        "demo": "todo-app"
     },
     {
         "slug": "giphy-app",
@@ -94,7 +116,7 @@
         "images": [
             {
                 "caption": "Screenshot of the code",
-                "path": "https://picsum.photos/200"
+                "path": "https://picsum.photos/1200"
             }
         ],
         "date": "2023",
