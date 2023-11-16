@@ -13,7 +13,10 @@ module.exports = {
     require("daisyui"),
     require('@tailwindcss/typography')],
   daisyui: {
-    themes: ["cupcake", "synthwave"],
-    darkTheme: false,
+    themes: [{cupcake: {
+      ...require("daisyui/src/theming/themes")["cupcake"],
+      info: '#1A1A9F'
+    },}, "synthwave"],
+    
   },
 }
