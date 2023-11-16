@@ -17,9 +17,9 @@ const Navbar = () => {
 	}, [theme]);
 	return (
 		<>
-			<div className="md:container-lg ">
-				<div className="navbar w-full">
-					<div className="flex-1">
+			<div className="md:container-lg max-w-7xl mx-auto">
+				<div className="navbar ">
+					<div className="flex-1 ">
 						<Link to="/" className="btn btn-ghost ">
 							<img
 								src="/logo.svg"
@@ -32,7 +32,14 @@ const Navbar = () => {
 					<div className="flex-none gap-8">
 						<ul className="menu menu-horizontal px-1">
 							<li>
-								<a>Link</a>
+								<a href>
+									<Link>Projects</Link>
+								</a>
+							</li>
+							<li>
+								<a href>
+									<Link>Contact</Link>
+								</a>
 							</li>
 						</ul>
 						<label className="flex cursor-pointer gap-2">
