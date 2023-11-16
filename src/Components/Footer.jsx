@@ -1,11 +1,24 @@
-import React from "react";
+import { useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 
 const Footer = () => {
+	const { pathname } = useLocation();
+
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, [pathname]);
 	return (
 		<>
-			<footer className="container my-10 p-2 flex max-w-2xl ">
-				<div className="divider divider-accent">
+			<footer className="mx-auto max-w-2xl">
+				<div className="divider divider-info">
 					<small className="text-slate-500">&copy; Connor Mattless 2023</small>
+				</div>
+				<div className="text-center my-2">
+					<Link to="/privacy">
+						<small className="text-info prose-figure cursor-pointer">
+							Privacy Policy
+						</small>
+					</Link>
 				</div>
 			</footer>
 		</>

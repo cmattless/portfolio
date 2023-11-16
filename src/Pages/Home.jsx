@@ -21,46 +21,69 @@ const Home = () => {
 			<main className="container max-w-7xl my-5 prose prose-slate ">
 				<section className="flex parent flex-col justify-self-center py-48 sm:flex-row  justify-evenly gap-2 bg-primary rounded-t-2xl p-5 items-center ">
 					<header className="flex flex-col gap-3 mask max-w-xl ">
-						<h1 className="">
-							<span className={`${fade ? "fade-in" : "fade-out"}`}>
+						<h1 className="text-primary-content">
+							<span
+								className={`text-primary-content ${
+									fade ? "fade-in" : "fade-out"
+								}`}
+							>
 								{words[wordIndex]}
 							</span>
-							<br /> I'm Connor
+							<br /> I'm Connor.
 							<span role="img" aria-label="Waving hand">
 								👋
 							</span>
 						</h1>
-						<h2 className="text-xl sm:text-2xl md:text-3xl mt-4">
+						<h2 className="text-primary-content text-xl sm:text-2xl md:text-3xl mt-4">
 							I build engaging & accessible digital experiences.
 						</h2>
 					</header>
 
 					<img
-						className="rounded-full mask w-3/4 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/3 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"
+						className="rounded-full mask w-3/4 sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"
 						src="/profile.jpg"
 						alt="Side profile of Connor smiling"
 					/>
-					<div aria-hidden="true" className="bubble">
+					<div aria-hidden="true" className="square">
 						&nbsp;
 					</div>
 				</section>
 
-				<section className="flex flex-col py-64 sm:flex-row  parent justify-evenly gap-2 bg-secondary  p-5 items-center">
+				<section className="flex flex-col py-48 sm:flex-row  parent justify-evenly gap-2 bg-secondary  p-5 items-center">
 					<img
-						className="mask w-2/4 rounded-xl"
+						className="mask w-2/4 rounded-xl w-3/4 sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"
 						src="/notebook.jpg"
 						alt="notebook on a table with a pen resting on the page"
 					/>
-					<header className="flex flex-col gap-3 max-w-xl ">
-						<h2 className="">Some of the work i've done</h2>
+					<header className="flex flex-col mask gap-3 max-w-xl prose">
+						<h2 className="text-secondary-content ">Work I've Done.</h2>
+						<h3 className="">
+							I have lots of cool projects; let me show you them.
+						</h3>
+						<button className="btn btn-primary w-2/5">See My Work</button>
 					</header>
 
-					<div aria-hidden className="triangle">
+					<div aria-hidden="true" className="triangle">
 						&nbsp;
 					</div>
 				</section>
-				<section className="flex flex-col justify-self-center py-64 sm:flex-row justify-evenly gap-2 bg-success rounded-b-2xl p-5 items-center">
-					<h2 className="text-3xl sm:text-4xl md:text-5xl">More About Me</h2>
+				<section className="flex flex-col justify-self-center py-48 sm:flex-row justify-evenly gap-2 bg-success rounded-b-2xl p-5 items-center parent">
+					<header className="flex flex-col mask gap-3 max-w-xl prose">
+						<h2 className="text-success-content ">Contact Me.</h2>
+						<h3 className="text-success-content ">
+							If you have a cool idea, a position I may be interested in, or
+							just want to say hi. Send me a message!
+						</h3>
+						<button className="btn btn-secondary w-2/6">Send a message</button>
+					</header>
+					<img
+						className="mask rounded-xl w-3/4 sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"
+						src="/talking-bro.svg"
+						alt="Cartoon illustration of two men talking"
+					/>
+					<div className="bubble" aria-hidden="true">
+						&nbsp;
+					</div>
 				</section>
 			</main>
 		</>

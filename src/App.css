@@ -11,10 +11,10 @@
 	border-radius: 50%;
 	position: absolute;
 	z-index: 0;
-	border: 300px solid #fff;
+	border: 200px solid #fff;
 	opacity: 0.1;
-	top: 5%;
-	left: -5%;
+	top: 26%;
+	left: -3%;
 }
 
 .triangle {
@@ -27,9 +27,21 @@
 	position: absolute;
 	z-index: 0;
 	opacity: 0.1;
-	top: 5%;
-	left: 47%;
+	top: 19%;
+	left: 61%;
 	transform: rotate(22.5deg);
+}
+
+.square {
+	width: 0;
+	aspect-ratio: 1;
+	position: absolute;
+	z-index: 0;
+	border: 200px solid #fff;
+	opacity: 0.1;
+	top: 26%;
+	left: -3%;
+	rotate: -20deg;
 }
 
 .fade-in {
