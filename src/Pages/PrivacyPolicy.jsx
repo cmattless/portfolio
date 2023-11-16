@@ -8,7 +8,7 @@ const PrivacyPolicy = () => {
 			<p>
 				This Privacy Policy describes how your personal information is
 				collected, used, and shared when you visit
-				https://www.connormattless.com (the “Site”).
+				https://www.connormattless.com (the “Site”) or any sub-domain thereof.
 			</p>
 
 			<h2>Personal Information I Collect.</h2>
@@ -23,11 +23,11 @@ const PrivacyPolicy = () => {
 				with the Site. I refer to this automatically-collected information as
 				“Device Information.”
 			</p>
+			<p>I collect Device Information using the following technologies:</p>
 			<p>
-				I collect Device Information using the following technologies: -
-				“Cookies” are data files that are placed on your device or computer and
-				often include an anonymous unique identifier. For more information about
-				cookies, and how to disable cookies, visit
+				- “Cookies” are data files that are placed on your device or computer
+				and often include an anonymous unique identifier. For more information
+				about cookies, and how to disable cookies, visit
 				http://www.allaboutcookies.org.
 			</p>
 			<p>
@@ -45,7 +45,7 @@ const PrivacyPolicy = () => {
 				browse the Site.
 			</p>
 			<p>
-				When I talk about “Personal Information” in this Privacy Policy, I are
+				When I talk about “Personal Information” in this Privacy Policy, I am
 				talking both about Device Information and Contact Information.
 			</p>
 
@@ -88,12 +88,12 @@ const PrivacyPolicy = () => {
 				right, please contact me through the contact information below.
 			</p>
 			<p>
-				Additionally, if you are a European resident I note that I are
-				processing your information in order to contact you (for example if you
-				fill out a contact form through the Site), or otherwise to pursue my
-				legitimate business interests listed above. Additionally, please note
-				that your information might be transferred outside of Europe, including
-				the United States.
+				Additionally, if you are a European resident I note that I am processing
+				your information in order to contact you (for example if you fill out a
+				contact form through the Site), or otherwise to pursue my legitimate
+				business interests listed above. Additionally, please note that your
+				information might be transferred outside of Europe, including the United
+				States.
 			</p>
 			<h2>Data Retention.</h2>
 			<p>
