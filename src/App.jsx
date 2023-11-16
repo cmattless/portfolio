@@ -5,6 +5,7 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import PageNotFound from "./Pages/PageNotFound";
+import Index from "./Pages/Projects/Index";
 
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
@@ -21,6 +22,7 @@ function App() {
 					<Route path="/about" element={<About />} />
 					<Route path="/contact" element={<Contact />} />
 					<Route path="/privacy" element={<PrivacyPolicy />} />
+					<Route path="/projects" element={<Index />} />
 					{/* <Route path="projects" element={<Projects />} /> */}
 
 					<Route path="*" element={<PageNotFound />} />

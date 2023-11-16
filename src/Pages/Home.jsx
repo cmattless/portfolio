@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
 	const words = ["Hi!", "Hello!", "Howdy! 🤠", "Välkommen!", "Tjena,"];
@@ -16,6 +17,7 @@ const Home = () => {
 
 		return () => clearInterval(timer);
 	}, []);
+
 	return (
 		<>
 			<main className="container max-w-7xl my-5 prose prose-slate ">
@@ -60,7 +62,9 @@ const Home = () => {
 						<h3 className="">
 							I have lots of cool projects; let me show you them.
 						</h3>
-						<button className="btn btn-primary w-2/5">See My Work</button>
+						<Link to="/projects">
+							<button className="btn btn-primary w-2/5">See My Work</button>
+						</Link>
 					</header>
 
 					<div aria-hidden="true" className="triangle">

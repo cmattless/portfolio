@@ -38,6 +38,7 @@
 	position: absolute;
 	z-index: 0;
 	border: 200px solid #fff;
+	border-radius: 15%;
 	opacity: 0.1;
 	top: 26%;
 	left: -3%;

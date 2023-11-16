@@ -21,8 +21,8 @@ const Navbar = () => {
 			<div className="md:container-lg max-w-7xl mx-auto">
 				<nav className="navbar" aria-label="Main navigation">
 					<div className="flex-1">
-						<Link to="/" className="btn btn-ghost">
-							<img src="/logo.svg" alt="CM initials, vertical" width="45px" />
+						<Link to="/" className="btn btn-ghost m-2 px-1">
+							<img src="/logo.svg" alt="CM initials, vertical" width="38px" />
 						</Link>
 					</div>
 					<div className="flex-none gap-8">
@@ -35,10 +35,11 @@ const Navbar = () => {
 							</li>
 						</ul>
 						<label
-							className="flex cursor-pointer gap-2"
+							className="flex cursor-pointer gap-2 "
 							aria-label="Theme toggle"
 						>
 							<svg
+								className="fill-info"
 								xmlns="http://www.w3.org/2000/svg"
 								width="20"
 								height="20"
@@ -56,7 +57,7 @@ const Navbar = () => {
 
 							<input
 								type="checkbox"
-								className="toggle theme-controller"
+								className="toggle toggle-info theme-controller"
 								onChange={handleThemeChange}
 								checked={theme === "synthwave"}
 								aria-checked={theme === "synthwave"}
@@ -64,6 +65,7 @@ const Navbar = () => {
 							/>
 
 							<svg
+								className="fill-info"
 								xmlns="http://www.w3.org/2000/svg"
 								width="20"
 								height="20"

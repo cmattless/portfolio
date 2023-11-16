@@ -56,14 +56,14 @@ const PrivacyPolicy = () => {
 			</p>
 			<h2>Sharing Your Personal Information.</h2>
 			<p>
-				I share your Personal Information with third parties to help us use your
+				I share your Personal Information with third parties to help me use your
 				Contact Information, as described above. I do not store any Contact
 				Information on third party servers. I use https://www.emailjs.com/ along
 				with Google Mail https://www.google.com/intl/en-GB/gmail/about/ to send
-				the contents of the form to our emails to contact you.
+				the contents of the form to my emails to contact you.
 			</p>
 			<p>
-				I also use Google Analytics to help us understand how our visitors use
+				I also use Google Analytics to help me understand how my visitors use
 				the Site--you can read more about how Google uses your Personal
 				Information here: https://www.google.com/intl/en/policies/privacy/. You
 				can also opt-out of Google Analytics here:
@@ -73,11 +73,11 @@ const PrivacyPolicy = () => {
 				Finally, I may also share your Personal Information to comply with
 				applicable laws and regulations, to respond to a subpoena, search
 				warrant or other lawful request for information I receive, or to
-				otherwise protect our rights.
+				otherwise protect my rights.
 			</p>
 			<h2>Do Not Track.</h2>
 			<p>
-				Please note that I do not alter our Site’s data collection and use
+				Please note that I do not alter my Site’s data collection and use
 				practices when I see a Do Not Track signal from your browser.
 			</p>
 			<h2>Your Rights.</h2>
@@ -85,31 +85,31 @@ const PrivacyPolicy = () => {
 				If you are a European resident, you have the right to access personal
 				information I hold about you and to ask that your personal information
 				be corrected, updated, or deleted. If you would like to exercise this
-				right, please contact us through the contact information below.
+				right, please contact me through the contact information below.
 			</p>
 			<p>
 				Additionally, if you are a European resident I note that I are
 				processing your information in order to contact you (for example if you
-				fill out a contact form through the Site), or otherwise to pursue our
+				fill out a contact form through the Site), or otherwise to pursue my
 				legitimate business interests listed above. Additionally, please note
 				that your information might be transferred outside of Europe, including
 				the United States.
 			</p>
 			<h2>Data Retention.</h2>
 			<p>
-				When you contact us through the Site, I will maintain your Contact
-				Information for our records unless and until you ask us to delete this
+				When you contact me through the Site, I will maintain your Contact
+				Information for my records unless and until you ask me to delete this
 				information.
 			</p>
 			<h2>Changes.</h2>
 			<p>
 				I may update this privacy policy from time to time in order to reflect,
-				for example, changes to our practices or for other operational, legal or
+				for example, changes to my practices or for other operational, legal or
 				regulatory reasons.
 			</p>
 			<h2>Contact Me.</h2>
 			<p>
-				For more information about our privacy practices, if you have questions,
+				For more information about my privacy practices, if you have questions,
 				or if you would like to make a complaint, please contact me by e-mail at
 				privacy@connormattless.com
 			</p>
