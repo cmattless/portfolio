@@ -86,11 +86,7 @@ const Home = () => {
 						</h3>
 						<button className="btn btn-secondary w-2/6">Send a message</button>
 					</header>
-					<img
-						className="mask rounded-xl w-3/4 sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"
-						src="/talking-bro.svg"
-						alt="Cartoon illustration of two men talking"
-					/>
+
 					<div className="bubble" aria-hidden="true">
 						&nbsp;
 					</div>
