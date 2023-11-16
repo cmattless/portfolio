@@ -23,7 +23,6 @@ function App() {
 					<Route path="/contact" element={<Contact />} />
 					<Route path="/privacy" element={<PrivacyPolicy />} />
 					<Route path="/projects" element={<Index />} />
-					{/* <Route path="projects" element={<Projects />} /> */}
 
 					<Route path="*" element={<PageNotFound />} />
 				</Routes>
