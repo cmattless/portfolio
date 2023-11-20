@@ -9,7 +9,7 @@ const PageNotFound = () => {
 				<img
 					src="/404-image.svg"
 					width="50%"
-					alt="cartoon blue cat with ball of yarn. sign with 404 error above the cat."
+					alt="cartoon blue cat with ball of yarn. sign with 404 error above the cat. His name is 'Floof'"
 					srcset=""
 				/>
 				<h1 className="text-center">

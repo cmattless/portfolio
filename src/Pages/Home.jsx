@@ -23,9 +23,9 @@ const Home = () => {
 			<main className="container max-w-7xl my-5 prose prose-slate ">
 				<section className="flex parent flex-col justify-self-center py-48 sm:flex-row  justify-evenly gap-2 bg-primary rounded-t-2xl p-5 items-center ">
 					<header className="flex flex-col gap-3 mask max-w-xl ">
-						<h1 className="text-primary-content">
+						<h1 className="text-primary-content mb-0.5">
 							<span
-								className={`text-primary-content ${
+								className={`text-primary-content  ${
 									fade ? "fade-in" : "fade-out"
 								}`}
 							>
@@ -42,7 +42,7 @@ const Home = () => {
 						<h3 className="text-primary-content">
 							Want to know more about me?
 						</h3>
-						<Link>
+						<Link to="/about">
 							<button className="btn btn-base">Get to know me.</button>
 						</Link>
 					</header>
@@ -86,7 +86,11 @@ const Home = () => {
 						</h3>
 						<button className="btn btn-secondary w-2/6">Send a message</button>
 					</header>
-
+					<img
+						className="mask rounded-xl w-3/4 sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"
+						src="/talking-bro.svg"
+						alt="illustration of two men talking in a formal setting"
+					/>
 					<div className="bubble" aria-hidden="true">
 						&nbsp;
 					</div>

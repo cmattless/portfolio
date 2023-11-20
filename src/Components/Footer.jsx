@@ -19,7 +19,7 @@ const Footer = () => {
 				</div>
 				<div className="text-center my-2">
 					<Link to="/privacy">
-						<small className="text-info prose-figure cursor-pointer">
+						<small className="text-brand prose-figure cursor-pointer">
 							Privacy Policy
 						</small>
 					</Link>

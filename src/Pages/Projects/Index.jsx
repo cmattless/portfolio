@@ -5,16 +5,13 @@ const Index = () => {
 	const [projects, setProjects] = useState(projectsJSON);
 	const projectList = projects.map((project, i) => {
 		// cycle through bg classes
-		const bgClass = ["bg-primary", "bg-secondary", "bg-success", "bg-accent"][
+		const bgClass = ["bg-primary", "bg-error", "bg-secondary", "bg-warning"][
 			i % 4
 		];
 
 		let alt;
-		if (i % 2 == 0) {
-			alt = true;
-		} else {
-			alt = false;
-		}
+		i % 2 == 0 ? (alt = true) : (alt = false);
+
 		return (
 			<section
 				key={i}
@@ -31,6 +28,10 @@ const Index = () => {
 	return (
 		<>
 			<main className="container max-w-7xl my-5 prose prose-slate ">
+				<section className="ps-3 xl:p-0">
+					<h1 className="m-0">Featured Projects.</h1>
+					<h3 className="mt-1 mb-5">A showcase of my work.</h3>
+				</section>
 				{projectList}
 			</main>
 		</>
