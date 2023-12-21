@@ -13,7 +13,7 @@ const Home = () => {
 				setWordIndex((wordIndex) => (wordIndex + 1) % words.length);
 				setFade(true);
 			}, 500);
-		}, 5000);
+		}, 8000);
 
 		return () => clearInterval(timer);
 	}, []);
@@ -84,7 +84,11 @@ const Home = () => {
 							If you have an awesome idea, a position I may be interested in, or
 							just want to say hi. Send me a message!
 						</h3>
-						<button className="btn btn-secondary w-2/6">Send a message</button>
+						<Link to="/contact">
+							<button className="btn btn-secondary w-2/6">
+								Send a message
+							</button>
+						</Link>
 					</header>
 					<img
 						className="mask rounded-xl w-3/4 sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"

@@ -1,8 +1,27 @@
-import projectsJSON from "../../assets/data/projects.json";
+import axios from "axios";
 import ProjectCard from "../../Components/ProjectCard";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+
 const Index = () => {
-	const [projects, setProjects] = useState(projectsJSON);
+	const [projects, setProjects] = useState([]);
+
+	const getProjects = () => {
+		axios
+			.get(
+				"https://connormattlessportfolio.blob.core.windows.net/portfolio/projects.json"
+			)
+			.then((res) => {
+				setProjects(res.data);
+			})
+			.catch((err) => {
+				console.log(err.data);
+			});
+	};
+
+	useEffect(() => {
+		getProjects();
+	}, []);
+
 	const projectList = projects.map((project, i) => {
 		// cycle through bg classes
 		const bgClass = ["bg-primary", "bg-error", "bg-secondary", "bg-warning"][
@@ -30,7 +49,11 @@ const Index = () => {
 			<main className="container max-w-7xl my-5 prose prose-slate ">
 				<section className="ps-3 xl:p-0">
 					<h1 className="m-0">Featured Projects.</h1>
-					<h3 className="mt-1 mb-5">A showcase of my work.</h3>
+					<h3 className="mt-1 mb-5">
+						{projects.length > 0
+							? "A showcase of my work."
+							: "My projects are not available right now, sorry."}
+					</h3>
 				</section>
 				{projectList}
 			</main>
