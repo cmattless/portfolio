@@ -43,12 +43,14 @@ const About = () => {
 			</section>
 
 			<section>
-				<h3>What I'm Looking For</h3>
+				<h3>What I'm Doing</h3>
 				<p>
-					I'm seeking an internship that lets me immerse myself in innovative
-					web development and contribute to meaningful projects. I'm eager to be
-					part of a team that values accessible digital design, in an
-					environment that promotes personal growth and cooperation.
+					I'm currently participating in an internship at UCD Center for Cybersecurity and Cyber-Crime investigation. I am working on a variety of projects that are being developed for use by law enforcement agencies. 
+
+					As part of my internship at UCD CCI I have designed and created the entirety of the front-end with active collaboration with the back-end team. 
+
+					On top of that, I am currently the sole developer for a upcoming project that is in a proof of concept stage. I am using this project to introduce the other developers to Node and React in order to allow them to maintain the project after I finish my internship.
+
 				</p>
 			</section>
 
