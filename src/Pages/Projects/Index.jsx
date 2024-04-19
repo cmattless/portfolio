@@ -8,9 +8,10 @@ const Index = () => {
 	const getProjects = () => {
 		axios
 			.get(
-				"https://connormattlessportfolio.blob.core.windows.net/portfolio/projects.json"
+				"https://connor-portfolio-35c95-default-rtdb.europe-west1.firebasedatabase.app/projects.json"
 			)
 			.then((res) => {
+				console.log(res.data)
 				setProjects(res.data);
 			})
 			.catch((err) => {
@@ -30,7 +31,7 @@ const Index = () => {
 
 		let alt;
 		i % 2 == 0 ? (alt = true) : (alt = false);
-
+		console.log(project)
 		return (
 			<section
 				key={i}

@@ -12,11 +12,18 @@ const ProjectCard = ({ project, alt }) => {
 		<>
 			{!alt && (
 				<>
-					<img
-						className="mask rounded-xl w-3/4 sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"
-						src={project.images[0].path}
-						alt={project.images[0].caption}
-					/>
+					{project.images ? (
+						<img
+							className="mask rounded-xl w-3/4 sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"
+							src={project.images[0].path}
+							alt={project.images[0].caption}
+						/>
+					) : (
+						<img
+							className="mask rounded-xl w-3/4 sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"
+							src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+						/>
+					)}
 					<div className="triangle"></div>
 				</>
 			)}
@@ -25,22 +32,29 @@ const ProjectCard = ({ project, alt }) => {
 				<h2 className="text-success-content ">{project.title}</h2>
 				<h3 className="text-success-content ">{project.description}</h3>
 				<div className="tags">{tags}</div>
-				<div className="prose">
+				<div className="prose gap-2">
 					{project.github ? (
-						<button className="btn btn-base">GitHub</button>
+						<a href={project.github}  className="btn btn-base">GitHub</a >
 					) : null}
 					{project.website ? (
-						<button className="btn btn-base">Website</button>
+						<a href={project.website}  className="btn btn-base">Website</a >
 					) : null}
 				</div>
 			</header>
 			{alt && (
 				<>
-					<img
-						className="mask rounded-xl w-3/4 sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"
-						src={project.images[0].path}
-						alt={project.images[0].caption}
-					/>
+					{project.images ? (
+						<img
+							className="mask rounded-xl w-3/4 sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"
+							src={project.images[0].path}
+							alt={project.images[0].caption}
+						/>
+					) : (
+						<img
+							className="mask rounded-xl w-3/4 sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"
+							src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+						/>
+					)}
 					<div className="square"></div>
 				</>
 			)}

@@ -46,9 +46,11 @@ const About = () => {
 				<h3>What I'm Doing</h3>
 				<p>
 					I'm currently participating in an internship at UCD Center for Cybersecurity and Cyber-Crime investigation. I am working on a variety of projects that are being developed for use by law enforcement agencies. 
-
-					As part of my internship at UCD CCI I have designed and created the entirety of the front-end with active collaboration with the back-end team. 
-
+				</p>
+				<p>
+					As part of my internship at UCD CCI I have designed and created the entirety of the front-end for a large project with active collaboration and feedback with the back-end team. 
+				</p>
+				<p>
 					On top of that, I am currently the sole developer for a upcoming project that is in a proof of concept stage. I am using this project to introduce the other developers to Node and React in order to allow them to maintain the project after I finish my internship.
 
 				</p>
