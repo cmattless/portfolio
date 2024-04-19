@@ -2,7 +2,13 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const Home = () => {
-	const words = ["Hi!", "Hello!", "Howdy! 🤠", "Välkommen!", "Tjena,"];
+	const words = [
+		"Hi!",
+		"Hello!",
+		"Howdy! 🤠",
+		"Greetings!",
+		"Welcome!",		
+	];
 	const [wordIndex, setWordIndex] = useState(0);
 	const [fade, setFade] = useState(true);
 
