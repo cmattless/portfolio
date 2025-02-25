@@ -13,7 +13,7 @@ const Footer = () => {
 				<div className="divider divider-info">
 					<div className="tooltip tooltip-info" data-tip="❤">
 						<small className="text-slate-500">
-							&copy; Connor Mattless 2023
+							&copy; Connor Mattless {new Date().getFullYear()}
 						</small>
 					</div>
 				</div>
