@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const PrivacyPolicy = () => {
 	return (
@@ -110,8 +111,8 @@ const PrivacyPolicy = () => {
 			<h2>Contact Me.</h2>
 			<p>
 				For more information about my privacy practices, if you have questions,
-				or if you would like to make a complaint, please contact me by e-mail at
-				privacy@connormattless.com
+				or if you would like to make a complaint, please contact me through the
+				contact form <Link to="/contact">here</Link>.
 			</p>
 		</div>
 	);

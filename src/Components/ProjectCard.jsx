@@ -1,7 +1,7 @@
 import React from "react";
 
 const ProjectCard = ({ project, alt }) => {
-	const tags = project.tags.map((tag, i) => {
+	const tags = project.tags?.map((tag, i) => {
 		return (
 			<div key={i} className="badge mx-0.5 badge-ghost badge-base">
 				{tag}
