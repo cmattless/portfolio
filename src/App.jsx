@@ -16,18 +16,10 @@ function App() {
 	return (
 		<>
 			<Router>
-				
-				<Navbar />
 				<Routes>
 					<Route path="/" element={<Home />} />
-					<Route path="/about" element={<About />} />
-					<Route path="/contact" element={<Contact />} />
-					<Route path="/privacy" element={<PrivacyPolicy />} />
-					<Route path="/projects" element={<Index />} />
-
 					<Route path="*" element={<PageNotFound />} />
 				</Routes>
-				<Footer />
 			</Router>
 		</>
 	);

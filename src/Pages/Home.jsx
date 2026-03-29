@@ -2,108 +2,29 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const Home = () => {
-	const words = [
-		"Hi!",
-		"Hello!",
-		"Howdy! 🤠",
-		"Greetings!",
-		"Welcome!",		
-	];
-	const [wordIndex, setWordIndex] = useState(0);
-	const [fade, setFade] = useState(true);
-
-	useEffect(() => {
-		const timer = setInterval(() => {
-			setFade(false);
-			setTimeout(() => {
-				setWordIndex((wordIndex) => (wordIndex + 1) % words.length);
-				setFade(true);
-			}, 500);
-		}, 8000);
-
-		return () => clearInterval(timer);
-	}, []);
-
 	return (
 		<>
-			<main className="container max-w-7xl my-5 prose prose-slate ">
-				<section className="flex parent flex-col justify-self-center py-48 sm:flex-row  justify-evenly gap-2 bg-primary rounded-t-2xl p-5 items-center ">
-					<header className="flex flex-col gap-3 mask max-w-xl ">
-						<h1 className="text-primary-content mb-0.5">
-							<span
-								className={`text-primary-content  ${
-									fade ? "fade-in" : "fade-out"
-								}`}
-							>
-								{words[wordIndex]}
-							</span>
-							<br /> I'm Connor.
-							<span role="img" aria-label="Waving hand">
-								👋
-							</span>
-						</h1>
-						<h2 className="text-primary-content text-xl sm:text-2xl md:text-3xl mt-4">
-							I build engaging & accessible digital experiences.
-						</h2>
-						<h3 className="text-primary-content">
-							Want to know more about me?
-						</h3>
-						<Link to="/about">
-							<button className="btn btn-base">Get to know me.</button>
-						</Link>
-					</header>
-
-					<img
-						className="rounded-full mask w-3/4 sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"
-						src="/profile.jpg"
-						alt="Side profile of Connor smiling"
-					/>
-					<div aria-hidden="true" className="square">
-						&nbsp;
-					</div>
+			<main className="container max-w-7xl prose my-5 grid grid-cols-2 justify-center items-center h-screen">
+				<section id="left" className="flex justify-center item-center">
+					<h1 className="font-mono text-black">Connor Mattless</h1>
 				</section>
-
-				<section className="flex flex-col py-48 sm:flex-row  parent justify-evenly gap-2 bg-secondary  p-5 items-center">
-					<img
-						className="mask rounded-xl w-3/4 sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"
-						src="/notebook.jpg"
-						alt="notebook on a table with a pen resting on the page"
-					/>
-					<header className="flex flex-col mask gap-3 max-w-xl prose">
-						<h2 className="text-secondary-content ">Work I've Done.</h2>
-						<h3 className="text-secondary-content">
-							I have many cool projects; let me show you them.
-						</h3>
-						<Link to="/projects">
-							<button className="btn btn-primary w-2/5">See My Work</button>
-						</Link>
-					</header>
-
-					<div aria-hidden="true" className="triangle">
-						&nbsp;
-					</div>
-				</section>
-				<section className="flex flex-col justify-self-center py-48 sm:flex-row justify-evenly gap-2 bg-success rounded-b-2xl p-5 items-center parent">
-					<header className="flex flex-col mask gap-3 max-w-xl prose">
-						<h2 className="text-success-content ">Contact Me.</h2>
-						<h3 className="text-success-content ">
-							If you have an awesome idea, a position I may be interested in, or
-							just want to say hi. Send me a message!
-						</h3>
-						<Link to="/contact">
-							<button className="btn btn-secondary w-2/6">
-								Send a message
-							</button>
-						</Link>
-					</header>
-					<img
-						className="mask rounded-xl w-3/4 sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"
-						src="/talking-bro.svg"
-						alt="illustration of two men talking in a formal setting"
-					/>
-					<div className="bubble" aria-hidden="true">
-						&nbsp;
-					</div>
+				{/* vertical dividing line */}
+				<div className="divider-horizontal"></div>
+				<section
+					id="right"
+					className="flex flex-col justify-center item-center font-mono"
+				>
+					<h2 className="text-slate-500">
+						Assistant Cyber Analyst, Software Engineer, and Web Developer.
+					</h2>
+					<p className="text-slate-500">
+						Welcome to my personal portfolio website! Here, you'll find a
+						collection of my projects, skills, and experiences in the world of
+						software development. I'm passionate about creating innovative
+						solutions and sharing my knowledge with the community. Feel free to
+						explore my work and get in touch if you'd like to collaborate or
+						learn more about me.
+					</p>
 				</section>
 			</main>
 		</>
