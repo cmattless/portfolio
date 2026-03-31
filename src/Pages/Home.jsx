@@ -3,7 +3,7 @@ const Home = () => {
 		<main className="bg-neutral-300/30 font-mono">
 			<section
 				id="me"
-				className="flex flex-col lg:flex-row gap-2 justify-center lg:justify-evenly items-center w-full h-screen"
+				className="flex flex-col lg:flex-row gap-2 justify-center lg:justify-evenly items-center w-full min-h-screen"
 			>
 				<div
 					id="left"
@@ -15,7 +15,7 @@ const Home = () => {
 							alt=""
 							className="w-1/4 md:w-1/5 lg:w-1/5 mask mask-squircle"
 						/>
-						<div className="">
+						<div className="text-center lg:text-start">
 							<h1 className=" text-slate-800 text-4xl">Connor Mattless</h1>
 							<span className="text-lg text-slate-500"> Dublin, Ireland</span>
 							<div className="mt-5">
@@ -34,10 +34,10 @@ const Home = () => {
 				>
 					<article className="flex flex-col justify-center items-center lg:items-start gap-8">
 						{" "}
-						<h2 className=" text-3xl px-3 lg:px-0 text-center lg:text-start">
+						<h2 className="text-xl lg:text-3xl px-3 lg:px-0 text-center lg:text-start">
 							Assistant Cyber Analyst
 						</h2>
-						<span className="text-2xl px-3 lg:px-0 text-center lg:text-start">
+						<span className="text-lg lg:text-2xl px-3 lg:px-0 text-center lg:text-start">
 							@ UCD Center for Cybersecurity & Cyber-crime investigation.
 						</span>
 						<div className="flex flex-col gap-2">
@@ -66,13 +66,15 @@ const Home = () => {
 			</section>
 			<section
 				id="about"
-				className="flex flex-col bg-neutral-300 lg:flex-row gap-2 justify-evenly px-15 items-center w-full h-screen"
+				className="flex flex-col bg-neutral-300 lg:flex-row gap-2 justify-evenly px-5 lg:px-15 items-center w-full min-h-screen"
 			>
 				<div
 					id="left"
 					className="flex flex-col justify-center items-center flex-1"
 				>
-					<h1 className=" text-slate-800 text-4xl">What I've been doing.</h1>
+					<h1 className=" text-slate-800 text-3xl lg:text-4xl">
+						What I've been doing.
+					</h1>
 				</div>
 				<aside className="flex flex-col justify-center items-center gap-10 flex-1">
 					{" "}
@@ -80,7 +82,7 @@ const Home = () => {
 						id="right"
 						className="flex flex-col justify-center item-center  text-slate-700 gap-5"
 					>
-						<h3 className=" text-2xl m-0 p-0">
+						<h3 className=" text-lg lg:text-2x m-0 p-0">
 							Center for Cybersecurity and Cyber-crime investigation
 						</h3>
 
@@ -148,7 +150,7 @@ const Home = () => {
 			</section>
 			<section
 				id="about"
-				className="flex flex-col-reverse bg-neutral-300/50 lg:flex-row gap-2 justify-evenly px-15 items-center w-full h-screen"
+				className="flex flex-col-reverse bg-neutral-300/50 lg:flex-row gap-2 justify-evenly px-5 lg:px-15 items-center w-full h-screen"
 			>
 				<aside className="flex flex-col gap-10 justify-center items-center flex-1">
 					{" "}
@@ -156,7 +158,7 @@ const Home = () => {
 						id="right"
 						className="flex flex-col justify-center item-center  text-slate-700 gap-5"
 					>
-						<h3 className=" text-2xl m-0 p-0">
+						<h3 className=" text-lg lg:text-2x m-0 p-0">
 							Dun Laoghaire Institute of Art, Design and Technology
 						</h3>
 
@@ -178,7 +180,9 @@ const Home = () => {
 					id="left"
 					className="flex flex-col justify-center items-center flex-1"
 				>
-					<h1 className=" text-slate-800 text-4xl">Where I've been.</h1>
+					<h1 className=" text-slate-800 text-3xl lg:text-4xl">
+						Where I've been.
+					</h1>
 				</div>
 			</section>
 			<section
