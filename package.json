@@ -12,7 +12,7 @@
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@tailwindcss/vite": "^4.2.2",
-    "axios": "^1.14.0",
+    "axios": "^1.15.0",
     "daisyui": "^5.5.19",
     "firebase": "^12.11.0",
     "firebase-tools": "^15.12.0",
